@@ -1,0 +1,27 @@
+/*CSS*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: darkblue;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: lightgray;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightyellow;
+  }
+  table {
+    width: 100%;
+  }
+}
